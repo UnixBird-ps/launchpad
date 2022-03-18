@@ -37,7 +37,7 @@ Create chain file by combining server-cert.pem with ca-cert.pem.
 	cat ca-cert.pem >> fullchain.pem
 
 
-Import CA-cert in Windows with PowerShell.
+Import CA-cert on Windows with PowerShell.
 
 	Import-Certificate -FilePath .\ca-cert.pem -CertStoreLocation Cert:\LocalMachine\Root
 

@@ -2,6 +2,7 @@
 # Ansible configuration
 
 Files
+
 	~/.ansible.cfg
 	~/.ansible/inventory.yml
 	~/.ansible/playbooks/apt.yml
