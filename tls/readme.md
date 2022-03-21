@@ -1,6 +1,7 @@
 
 # Create self-signed SSL certificate for a server
 
+
 Generate private key for CA.
 
 	openssl genrsa -aes256 -out ca-key.pem 4096
