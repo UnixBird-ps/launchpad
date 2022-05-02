@@ -1,0 +1,8 @@
+- name: Update apt packages
+  hosts: debian_based
+  become: yes
+  tasks:
+  - name: apt
+    apt:
+      update_cache: yes
+      upgrade: 'yes'
